@@ -12,6 +12,9 @@ module.exports = {
       "2xl": "1536px",
     },
     colors: ({ colors }) => ({
+      "blessmi-blue-10": "#E0F2FF",
+      "blessmi-deep-blue": "#161722",
+      "blessmi-faint-brown": "#7E7B7B",
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,
