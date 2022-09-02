@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col md:flex-row">
-    <div class="px-5 sm:px-11 pt-6">
+  <div class="flex flex-col md:flex-row justify-start">
+    <div class="px-5 sm:px-11 pt-6 w-full md:w-8/12 pb-10">
       <div class="border rounded-lg">
-        <img src="../assets/a-couple.png" alt="" />
+        <img src="../assets/a-couple.png" alt="" class="w-full" />
         <div class="bg-blessmi-blue-10 px-3 sm:px-6 py-2 flex items-center">
           <p class="text-blessmi-faint-brown text-[10px] font-semibold">
             Organised by:
@@ -67,12 +67,15 @@
         </div>
       </div>
     </div>
-    <div></div>
+    <div class="w-full px-5 sm:px-11 pt-6 md:p-0 md:w-3/12">
+      <HomeSideColumn />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import HomeSideColumn from "../components/SideColumn.vue";
+export default { components: { HomeSideColumn } };
 </script>
 
 <style scoped>
