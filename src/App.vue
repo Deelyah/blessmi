@@ -1,6 +1,11 @@
 <template>
   <div>
-    <TheHeader></TheHeader>
+    <div class="fixed top-0 left-0 right-0">
+      <TheHeader></TheHeader>
+    </div>
+    <div class="pt-16">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
