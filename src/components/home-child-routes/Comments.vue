@@ -4,7 +4,9 @@
       <h2 class="font-lg text-blessmi-deep-blue font-semibold">
         What People Say
       </h2>
-      <router-link to="" class="flex items-center font-medium text-xs ml-auto"
+      <router-link
+        to="/more"
+        class="flex items-center font-medium text-xs ml-auto"
         >View all
         <img src="" alt="" />
       </router-link>

@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col md:flex-row justify-start">
-    <div class="px-5 sm:px-11 pt-6 w-full md:w-8/12 pb-10">
+  <div class="flex flex-col lg:flex-row justify-start">
+    <div class="px-5 sm:px-11 pt-6 w-full lg:w-8/12 pb-10">
       <div class="border rounded-lg">
         <img src="../assets/a-couple.png" alt="" class="w-full" />
         <div class="bg-blessmi-blue-10 px-3 sm:px-6 py-2 flex items-center">
@@ -33,7 +33,9 @@
             I need to raise 5 million naira for a wedding ceremony, that is
             scheduled to hold on the 26th June 2020, i need this money to
             support this couple and their newly born quadruplets in
-            th<router-link to="/" class="text-blessmi-deep-blue font-semibold"
+            th<router-link
+              to="/more"
+              class="text-blessmi-deep-blue font-semibold"
               >...See more</router-link
             >
           </p>
@@ -49,8 +51,9 @@
               <router-link
                 to="/home/blessors"
                 class="text-[10px] sm:text-sm text-[#567286] mr-4 sm:mr-8 md:mr-10 font-semibold py-3"
-                >Blessors</router-link
               >
+                Blessors
+              </router-link>
               <router-link
                 to="/home/rewards"
                 class="text-[10px] sm:text-sm text-[#567286] mr-4 sm:mr-8 md:mr-10 font-semibold py-3"
@@ -67,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="w-full px-5 sm:px-11 pt-6 md:p-0 md:w-3/12">
+    <div class="w-full px-5 sm:px-11 pt-6 lg:p-0 lg:w-3/12">
       <HomeSideColumn />
     </div>
   </div>

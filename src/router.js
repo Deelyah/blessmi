@@ -4,7 +4,6 @@ import Overview from "./components/home-child-routes/Overview.vue";
 import Blessors from "./components/home-child-routes/Blessors.vue";
 import Rewards from "./components/home-child-routes/Rewards.vue";
 import Comments from "./components/home-child-routes/Comments.vue";
-
 import More from "./pages/ViewMore.vue";
 let router = createRouter({
   history: createWebHistory(),

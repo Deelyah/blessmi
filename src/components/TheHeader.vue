@@ -5,7 +5,7 @@
     <router-link to="/" class="text-[#85B739] font-semibold text-2xl">
       <img src="../assets/logo.png" alt="Logo" />
     </router-link>
-    <router-link to="/" class="ml-auto font-bold">Sign in</router-link>
+    <router-link to="/more" class="ml-auto font-bold">Sign in</router-link>
   </nav>
 </template>
 

@@ -45,8 +45,16 @@
         class="w-full flex justify-center items-center py-5 px-8 border rounded-[4px] shadow-md"
       >
         <img src="../assets/master-card.png" alt="" />
-        <img src="../assets/visa.png" alt="" />
-        <img src="../assets/verve.png" alt="" />
+        <img
+          src="../assets/visa.png"
+          alt=""
+          class="max-w-[50px] max-h-[20px] mr-1"
+        />
+        <img
+          src="../assets/verve.png"
+          alt=""
+          class="max-w-[50px] max-h-[20px] mr-1"
+        />
         <img src="../assets/union-pay.png" alt="" />
       </button>
       <button

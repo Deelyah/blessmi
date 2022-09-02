@@ -2,7 +2,9 @@
   <div class="px-6">
     <div class="flex items-center py-4 w-full">
       <h2 class="font-lg text-blessmi-deep-blue font-semibold">Updates</h2>
-      <router-link to="" class="flex items-center font-medium text-xs ml-auto"
+      <router-link
+        to="/more"
+        class="flex items-center font-medium text-xs ml-auto"
         >View all
         <img src="" alt="" />
       </router-link>

@@ -2,14 +2,14 @@
   <div class="px-6">
     <div class="flex items-center py-4 w-full">
       <h2 class="font-lg text-blessmi-deep-blue font-semibold">Blessors</h2>
-      <router-link to="" class="flex items-center font-medium text-xs ml-auto"
+      <router-link to="/more" class="flex items-center font-medium text-xs ml-auto"
         >View all
         <img src="" alt="" />
       </router-link>
     </div>
 
     <div id="fundRaiser" class="pt-2.5">
-      <h3 class="text-lg font-semibold">Blessor Members</h3>
+      <h3 class="text-lg font-semibold">Blessing Members</h3>
       <div class="w-full justify-start items-center border-b">
         <div class="w-4/5">
           <div class="flex flex-col sm:flex-row justify-between md:py-2">
